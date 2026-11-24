@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b0d12">
+  <meta name="description" content="XO CALL video calling app listing and download page.">
+  <title>XO CALL — Google Play style app page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <button class="icon-btn back" aria-label="Back" onclick="history.back()">‹</button>
+    <a class="brand" href="#" aria-label="Google Play style landing page">
+      <span class="play-mark" aria-hidden="true"></span><span>Google Play</span>
+    </a>
+    <div class="top-actions">
+      <button class="icon-btn" aria-label="Search">⌕</button>
+      <button class="icon-btn" aria-label="More options">⋮</button>
+    </div>
+  </header>
+
+  <main class="page">
+    <section class="app-summary" aria-labelledby="app-name">
+      <div class="app-icon" aria-label="XO CALL app icon"><img src="assets/xo-call-logo.png" alt="XO CALL logo"></div>
+      <div class="app-identity">
+        <h1 id="app-name">XO CALL</h1>
+        <a class="developer" href="#support">XO CALL</a>
+        <p class="subline">Contains ads · In-app purchases</p>
+      </div>
+    </section>
+
+    <section class="stats" aria-label="App details">
+      <div class="stat"><strong>4.8 ★</strong><span>1.2K reviews</span></div>
+      <div class="stat"><strong>↓</strong><span>18 MB</span></div>
+      <div class="stat"><strong>3+</strong><span>Rated for 18+</span></div>
+      <div class="stat"><strong>50K+</strong><span>Downloads</span></div>
+    </section>
+
+    <a class="install-button" href="#" id="installLink">Install</a>
+    <p class="install-note">Install on your phone. More devices available.</p>
+
+    <section class="screenshots" aria-label="XO CALL app screenshots">
+      <div class="shots-heading">Screenshots</div>
+      <div class="shots-track">
+        <article class="shot shot-device"><div class="device-frame"><img src="assets/screen-1.jpg" alt="XO CALL app screenshot 1" loading="lazy"></div></article>
+        <article class="shot shot-device"><div class="device-frame"><img src="assets/screen-2.jpg" alt="XO CALL app screenshot 2" loading="lazy"></div></article>
+        <article class="shot shot-device"><div class="device-frame"><img src="assets/screen-3.jpg" alt="XO CALL app screenshot 3" loading="lazy"></div></article>
+        <article class="shot shot-device"><div class="device-frame"><img src="assets/screen-4.jpg" alt="XO CALL app screenshot 4" loading="lazy"></div></article>
+        <article class="shot shot-device"><div class="device-frame"><img src="assets/screen-5.jpg" alt="XO CALL app screenshot 5" loading="lazy"></div></article>
+        <article class="shot shot-device"><div class="device-frame"><img src="assets/screen-6.jpg" alt="XO CALL app screenshot 6" loading="lazy"></div></article>
+        <article class="shot shot-device"><div class="device-frame"><img src="assets/screen-7.jpg" alt="XO CALL app screenshot 7" loading="lazy"></div></article>
+        <article class="shot shot-device"><div class="device-frame"><img src="assets/screen-8.jpg" alt="XO CALL app screenshot 8" loading="lazy"></div></article>
+      </div>
+    </section>
+
+    <section class="about section">
+      <h2 class="section-title">About this app <span>›</span></h2>
+      <p>XO CALL is a live video-calling app designed for Indian users who want to connect and talk with girls through live video calls. Meet new people, enjoy real-time conversations, and make every interaction more personal—all from your phone.
+Your privacy matters. XO CALL is designed with privacy in mind, so you can focus on connecting and having conversations while keeping your personal information protected.
+Connect live. Talk freely. Stay private.</p>
+      <div class="chips"><span>VideoCall</span><span>Call with Indian Girls</span></div>
+    </section>
+
+    <section class="ratings section" id="reviews">
+      <h2 class="section-title">Ratings and reviews <span>›</span></h2>
+      <div class="demo-note">Real experiences. Honest feedback. Better connections.</div>
+      <div class="rating-layout">
+        <div class="rating-score"><strong>4.8</strong><div class="stars">★★★★☆</div><small>1,894 ratings</small></div>
+        <div class="rating-bars" aria-label="Sample rating distribution">
+          <div class="rating-row"><span>5</span><div class="track"><i style="width:85%"></i></div><small>85%</small></div>
+          <div class="rating-row"><span>4</span><div class="track"><i style="width:9%"></i></div><small>9%</small></div>
+          <div class="rating-row"><span>3</span><div class="track"><i style="width:3%"></i></div><small>3%</small></div>
+          <div class="rating-row"><span>2</span><div class="track"><i style="width:1%"></i></div><small>1%</small></div>
+          <div class="rating-row"><span>1</span><div class="track"><i style="width:2%"></i></div><small>2%</small></div>
+        </div>
+      </div>
+      <div id="reviewsList" class="reviews-list" aria-live="polite"></div>
+      <button class="text-link" id="showReviews">See all reviews&nbsp; →</button>
+    </section>
+
+    <section class="accordion section" id="support">
+      <details><summary><span>♧</span> App support <b>＋</b></summary><div class="details-body">Need help with XO CALL? We’re here for you. If you have questions, face an issue, or want to share feedback, reach out to our support team. We’ll do our best to help you get back to connecting.
+Your experience matters to us.
+For support, contact: client.support@xocall.com.</div></details>
+      <details><summary><span>⬡</span> Data safety <b>＋</b></summary><div class="details-body">Your privacy matters to us. XO CALL is designed to help you connect through live video calls while keeping your personal information in mind.
+Personal information: We only describe information handling here that has been verified for the app.
+Video calls: Calls are intended for live conversations. Add details about whether calls are recorded or stored only if confirmed.
+Data sharing: Disclose any data shared with service providers or third parties in your official privacy policy.
+Your choices: Review the app’s privacy policy for details on data handling and available privacy controls.</div></details>
+    </section>
+    <footer>Google Play Store</footer>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
