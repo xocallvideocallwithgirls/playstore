@@ -1,16 +1,14 @@
-// Replace this placeholder with your real Google Play listing URL before publishing.
 const PLAY_STORE_URL =
   "https://github.com/xocallvideocallwithgirls/xo-calls/raw/main/XO%20CALL%20-%20Video%20Call%20with%20Girls.apk";
 
 const installLink = document.getElementById("installLink");
-installLink.href = PLAY_STORE_URL;
-installLink.setAttribute("download", "");
 
-installLink.addEventListener("click", (event) => {
-  // GitHub APK direct download
-  event.preventDefault();
-  window.location.href = PLAY_STORE_URL;
-});
+if (installLink) {
+  installLink.href = PLAY_STORE_URL;
+  installLink.target = "_blank";
+  installLink.rel = "noopener";
+  installLink.removeAttribute("download");
+}
 
 // These are fictional demo reviews for preview/layout purposes, not verified user reviews.
 const demoReviews = [
