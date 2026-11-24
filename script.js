@@ -12,7 +12,6 @@ if (installLink) {
 
 // These are fictional demo reviews for preview/layout purposes, not verified user reviews.
 const demoReviews = [
-  [
   ["Rahul Verma",5,"Video call connect karna easy tha. App ka interface bhi simple hai."],
   ["Aarav Sharma",4,"Overall experience achha raha. Kabhi kabhi call connect hone mein thoda time lagta hai."],
   ["Vikram Patel",5,"Live video call ka experience smooth tha. App use karna bhi easy hai."],
